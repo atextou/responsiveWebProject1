@@ -12,6 +12,76 @@
 </head>
 
 <body>
+    <!-- 顶部导航 -->
+    <header>
+        <!-- 左logo -->
+        <div class="logo">小玩意儿</div>
+        <!-- 右导航 -->
+        <nav>
+            <a href="#">嘻嘻</a>
+            <a href="#">嘻嘻</a>
+            <a href="#">嘻嘻</a>
+            <a href="#">嘻嘻</a>
+            <a href="#">嘻嘻</a>
+            <a href="#">嘻嘻</a>
+            <i class="fas fa-search"></i>
+        </nav>
+        <!-- 响应式按钮 -->
+        <div class="burger">
+            <div class="burger-line1"></div>
+            <div class="burger-line2"></div>
+            <div class="burger-line3"></div>
+        </div>
+    </header>
+    <!-- 中部轮播 -->
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <div class="glide__slides">
+                <!-- 内容一 -->
+                <div class="glide__slide">
+                    <div class="slide-caption">
+                        <h1>万岁</h1>
+                        <h3>像我一样cute</h3>
+                        <button class="explore-btn">more</button>
+                    </div>
+                    <!-- 遮罩层 -->
+                    <div class="backdrop"></div>
+                    <img src="/images/mansei.jpg">
+                </div>
+                <!-- 内容二 -->
+                <div class="glide__slide">
+                    <div class="slide-caption">
+                        <h1>安娜</h1>
+                        <h3>Do u wanna build a snowman?</h3>
+                        <button class="explore-btn">more</button>
+                    </div>
+                    <div class="backdrop"></div>
+                    <video src="/videos/snowman3.mp4" muted autoplay loop></video>
+                </div>
+            </div>
+        </div>
+        <!-- 中部左右切换按钮 -->
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                >
+            </button>
+        </div>
+        <!-- 底部小圆点 -->
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/index.js"></script>
+    <script src="/libs/js/anime.min.js"></script>
+    <script src="/libs/js/isotope.pkgd.min.js"></script>
+    <script src="/libs/js/smooth-scroll.polyfills.min.js"></script>
 
 </body>
 
